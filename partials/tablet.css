@@ -1,0 +1,38 @@
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: #FFF; }
+    body #head {
+      width: 100%;
+      height: 150px;
+      background-color: #00ADEF; }
+      body #head h1 {
+        font: 900 75px arial;
+        text-align: center;
+        padding-top: 17.5px; }
+    body #choose {
+      width: 300px;
+      margin: 50px auto 0 auto; }
+      body #choose select {
+        width: 300px;
+        height: 75px;
+        font: 500 35px arial;
+        background-color: lightgray; }
+      body #choose option {
+        font: 500 20px arial; }
+      body #choose .model {
+        display: none;
+        background-color: lightgray; }
+    body #carDetails {
+      width: 50%;
+      margin: 50px auto 0 auto; }
+      body #carDetails img {
+        width: 100%; }
+      body #carDetails h1 {
+        font: 400 50px arial;
+        text-align: center; }
+      body #carDetails h3 {
+        font: 35px arial; } }
+
+/*# sourceMappingURL=tablet.css.map */

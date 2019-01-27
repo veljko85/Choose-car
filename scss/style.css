@@ -1,0 +1,110 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #FFF; }
+  body #head {
+    width: 100%;
+    height: 200px;
+    background-color: #00ADEF; }
+    body #head h1 {
+      font: 900 100px arial;
+      text-align: center;
+      padding-top: 25px; }
+  body #choose {
+    width: 400px;
+    margin: 100px auto 0 auto; }
+    body #choose select {
+      width: 400px;
+      height: 100px;
+      font: 500 50px arial;
+      background-color: lightgray; }
+    body #choose option {
+      font: 500 20px arial; }
+    body #choose .model {
+      display: none;
+      background-color: lightgray; }
+  body #carDetails {
+    width: 80%;
+    margin: 100px auto 0 auto; }
+    body #carDetails img {
+      width: 100%; }
+    body #carDetails h1 {
+      font: 400 80px arial;
+      text-align: center; }
+    body #carDetails h3 {
+      font: 50px arial; }
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) {
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: #FFF; }
+    body #head {
+      width: 100%;
+      height: 150px;
+      background-color: #00ADEF; }
+      body #head h1 {
+        font: 900 75px arial;
+        text-align: center;
+        padding-top: 17.5px; }
+    body #choose {
+      width: 300px;
+      margin: 50px auto 0 auto; }
+      body #choose select {
+        width: 300px;
+        height: 75px;
+        font: 500 35px arial;
+        background-color: lightgray; }
+      body #choose option {
+        font: 500 20px arial; }
+      body #choose .model {
+        display: none;
+        background-color: lightgray; }
+    body #carDetails {
+      width: 50%;
+      margin: 50px auto 0 auto; }
+      body #carDetails img {
+        width: 100%; }
+      body #carDetails h1 {
+        font: 400 50px arial;
+        text-align: center; }
+      body #carDetails h3 {
+        font: 35px arial; } }
+@media only screen and (min-device-width: 1024px) and (orientation: landscape) {
+  body {
+    width: 100%;
+    height: 100%;
+    background-color: #FFF; }
+    body #head {
+      width: 100%;
+      height: 100px;
+      background-color: #00ADEF; }
+      body #head h1 {
+        font: 900 50px arial;
+        text-align: center;
+        padding-top: 12.5px; }
+    body #choose {
+      width: 200px;
+      margin: 20px auto 0 auto; }
+      body #choose select {
+        width: 200px;
+        height: 50px;
+        font: 500 20px arial;
+        background-color: lightgray; }
+      body #choose option {
+        font: 500 20px arial; }
+      body #choose .model {
+        display: none;
+        background-color: lightgray; }
+    body #carDetails {
+      width: 25%;
+      margin: 20px auto 0 auto; }
+      body #carDetails img {
+        width: 100%; }
+      body #carDetails h1 {
+        font: 400 30px arial;
+        text-align: center; }
+      body #carDetails h3 {
+        font: 20px arial; } }
+
+/*# sourceMappingURL=style.css.map */

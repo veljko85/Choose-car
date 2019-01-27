@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+	<html>
+		<head>	
+			<title>Choose car</title>
+			<meta charset="UTF-8">
+			<link rel="stylesheet" type="text/css" href="css/reset.css">
+			<link rel="stylesheet" type="text/css" href="scss/style.css">
+		</head>
+		<body>
+			<div id="head">
+				<h1>Choose Car</h1>
+			</div>
+
+			<div id="choose">
+				
+				<select id="brand" onchange="findBrand(this.value)">
+					<option id="selectBrand">Select Brand</option>
+					<option id="audi" value="audi">Audi</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="peugeot">Peugeot</option>
+					<option value="opel">Opel</option>
+				</select>
+				
+				<br>
+				<br>
+				
+				<select class="model" id="audiBrand" onchange="findModel(this.value)">
+					<option id="selectModel">Select Model</option>
+					<option id="a1" value="Audi A1">A1</option>
+					<option id="a2" value="Audi A2">A2</option>
+					<option id="a4" value="Audi A4">A4</option>
+					<option id="a6" value="Audi A6">A6</option>
+				</select>
+
+				<select class="model" id="mercedesBrand" onchange="findModel(this.value)">
+					<option id="selectModel">Select Model</option>
+					<option id="a" value="Mercedes A Class">A Class</option>
+					<option id="b" value="Mercedes B Class">B Class</option>
+					<option id="c" value="Mercedes C Class">C Class</option>
+					<option id="e" value="Mercedes E Class">E Class</option>
+				</select>
+
+				<select class="model" id="peugeotBrand" onchange="findModel(this.value)">
+					<option id="selectModel">Select Model</option>
+					<option id="206" value="Peugeot 206">206</option>
+					<option id="307" value="Peugeot 307">307</option>
+					<option id="407" value="Peugeot 407">407</option>
+					<option id="607" value="Peugeot 607">607</option>
+				</select>
+
+				<select class="model" id="opelBrand" onchange="findModel(this.value)">
+					<option id="selectModel">Select Model</option>
+					<option id="corsa" value="Opel Corsa">Corsa</option>
+					<option id="zafira" value="Opel Zafira">Zafira</option>
+					<option id="astra" value="Opel Astra">Astra</option>
+					<option id="insignia" value="Opel Insignia">Insignia</option>
+				</select>
+
+			</div>	
+		
+			<div id="carDetails">
+				<img id="image" src="">
+				<h1 id="brandModel"></h1>
+				<br>
+				<h3 id="price"></h3>
+				<h3 id="fuel"></h3>
+				<h3 id="year"></h3>
+				<h3 id="numOfSeats"></h3>
+			</div>
+
+
+		<script type="text/javascript" src="js/main.js"></script>	
+		</body>
